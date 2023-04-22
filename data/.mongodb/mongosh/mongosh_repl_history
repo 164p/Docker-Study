@@ -1,0 +1,10 @@
+db.users.insertOne({fname: "massliam"})
+db.myFirstCollection.insertOne({fname: "massliam"})
+db.users.find()
+db.myFirstCollection.insert({fname: "massliam"})
+db.users.find()
+db.users.insertOne({ fname: "John" })
+db.users.find()
+use test
+db.users.find()
+db.test.find()
